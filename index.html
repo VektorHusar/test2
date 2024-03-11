@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/test2/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice."
+    />
+    <title>GreenHarvest</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <script type="module" crossorigin src="/test2/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/test2/assets/index-4bea9c95.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <nav class="header-navigation">
+      <a href="./index.html" class="logo header-logo">
+        <svg class="logo-svg header-logo-svg">
+          <use href="/test2/assets/icons-97643fd2.svg#icon-squares"></use>
+        </svg>
+        green.harvest
+      </a>
+      <svg
+        class="header-menu-svg js-open-modal"
+        data-modal="1"
+        id="header-menu-svg-btn"
+      >
+        <use href="/test2/assets/icons-97643fd2.svg#icon-burger"></use>
+      </svg>
+      <ul class="header-menu">
+        <li>
+          <a class="header-menu-link" href="#how-it-works">How It Works</a>
+        </li>
+        <li>
+          <a class="header-menu-link" href="#vegetables">Vegetables</a>
+        </li>
+        <li>
+          <a class="header-menu-link" href="#reviews">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="header-button scroll-button" type="button">Shop now</button>
+  </div>
+</header>
+<div
+  class="bg-mobile-navigation-container js-overlay-modal overlay"
+  id="view-mobile-navigation"
+>
+  <div class="mobile-navigation-container modal" data-modal="1">
+    <button class="btn-close .js-modal-close" id="btn-close" type="button">
+      <svg class="btn-icon-close">
+        <use href="/test2/assets/icons-97643fd2.svg#icon-close"></use>
+      </svg>
+    </button>
+    <nav class="mobile-navigation">
+      <ul class="mobile-menu">
+        <li>
+          <a
+            class="mobile-menu-link mobile-menu-link-active"
+            href="#how-it-works"
+          >
+            How It Works
+          </a>
+        </li>
+        <li>
+          <a class="mobile-menu-link" href="#vegetables">Vegetables</a>
+        </li>
+        <li>
+          <a class="mobile-menu-link" href="#reviews">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="mobile-navigation-btn scroll-button" type="button">
+      Shop now
+    </button>
+  </div>
+</div>
+
+    <main>
+      <section class="hero">
+    <div class="container">
+      <div class="hero-wrapper">
+      <div class="title-small-text">
+      <h1 class="section-title">organic vegetables to your diet today!</h1>
+      <p class="section-title-small-text">
+        Our expertly curated vegetable baskets are made with the freshest, 
+        highest quality vegetables available. Fresh Harvest Box has got you covered. 
+        Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.
+      </p>
+    </div>
+    </div>
+    </div>
+  </section>
+
+      <section class="how-it-works" id="how-it-works">
+  <div class="howitworks-container container">
+    <h2 class="visually-hidden">How it works</h2>
+    <div class="howitworks-image-container">
+      <picture>
+        <!-- Desktop screen -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="/test2/assets/desktop-1x-43228fbf.webp , /test2/assets/desktop-2x-eaa5f38f.webp 2x"
+          type="image/webp"
+        />
+
+        <!-- Tablet screen -->
+        <source
+          media="(min-width: 768px)"
+          srcset="/test2/assets/tab-1x-16872519.webp 1x, /test2/assets/tab-2x-ebd20007.webp 2x"
+          type="image/webp"
+        />
+
+        <!-- Mobile screen -->
+
+        <source
+          media="(max-width: 767px)"
+          srcset="/test2/assets/mob-1x-db80f49d.webp 1x, /test2/assets/mob-2x-2e05750c.webp 2x"
+          type="image/webp"
+        />
+        <img
+          src="/test2/assets/desktop-1x-43228fbf.webp"
+          alt="howitworks-image"
+          class="howitworks-img"
+          width="335"
+          height="450"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+    <div class="howitsworks-steps">
+      <p class="howitworks-title">
+        To order your
+        <span class="howitworks-title-span">vegetable</span> basket, simply
+        follow these
+        <span class="howitworks-title-span">easy steps</span>
+      </p>
+      <p class="howitworks-text">
+        Our baskets are assembled with care and delivered straight to your
+        doorstep, so you can enjoy the taste of fresh fruit without ever leaving
+        your home.
+      </p>
+      <ol class="howitworks-list">
+        <li class="howitworks-item">
+          <p class="howitworks-item-text">
+            Just choose
+            <span class="howitworks-item-span">the vegetable</span> you want to
+            order by clicking on the checkboxes
+            <span class="howitworks-item-span">next to it.</span>
+          </p>
+        </li>
+        <li class="howitworks-item">
+          <p class="howitworks-item-text">
+            Click on <span class="howitworks-item-span">the basket</span> and
+            fill out the form.
+          </p>
+        </li>
+        <li class="howitworks-item">
+          <p class="howitworks-item-text">
+            Sit back and relax! Your
+            <span class="howitworks-item-span">fresh vegetables</span> basket
+            will be delivered.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+      <section class="section advertisement-section">
+  <div class="container advertisement-container">
+    <h2 class="visually-hidden">Advertisement</h2>
+    <p class="advertisement-text">
+      <span class="advertisement-text-color">Discount up to 40%!</span>
+      Taste the vitamins and keep your health
+    </p>
+  </div>
+</section>
+
+      <section class="section vegetables" id="vegetables">
+  <div class="container vegetables-box">
+    <h2 class="vegetables-title">
+      organic <span class="vegetables-title-span">vegetables</span>
+    </h2>
+    <p class="vegetables-text">
+      Our organic vegetables are hand-picked from local farms and delivered
+      straight to your doorstep, ensuring that you get the freshest and most
+      nutritious produce possible.
+    </p>
+    <ul class="vegetables-list">
+      <li class="vegetables-list-item">
+        <div class="vegetables-card">
+          <h3 class="vegetables-card-title">eggplant</h3>
+          <p class="vegetables-card-price">60 UAH / kg</p>
+          <img
+            srcset="/test2/assets/eggplant-8808b4a5.webp 1x, /test2/assets/eggplant_2x-e1cdee90.webp 2x"
+            src="/test2/assets/eggplant-8808b4a5.webp"
+            width="282"
+            height="243"
+            alt="eggplant"
+          />
+        </div>
+      </li>
+      <li class="vegetables-list-item">
+        <div class="vegetables-card">
+          <h3 class="vegetables-card-title">leek</h3>
+          <p class="vegetables-card-price">50 UAH / kg</p>
+          <img
+            srcset="/test2/assets/leek-c897a6ad.webp 1x, /test2/assets/leek_2x-3dc0344b.webp 2x"
+            src="/test2/assets/leek-c897a6ad.webp"
+            width="282"
+            height="243"
+            alt="leek"
+          />
+        </div>
+      </li>
+      <li class="vegetables-list-item">
+        <div class="vegetables-card">
+          <h3 class="vegetables-card-title">mushrooms</h3>
+          <p class="vegetables-card-price">40 UAH / kg</p>
+          <img
+            srcset="/test2/assets/mushrooms-6e1726b2.webp 1x, /test2/assets/mushrooms_2x-3f2808c7.webp 2x"
+            src="/test2/assets/mushrooms-6e1726b2.webp"
+            width="282"
+            height="243"
+            alt="mushrooms"
+          />
+        </div>
+      </li>
+      <li class="vegetables-list-item">
+        <div class="vegetables-card">
+          <h3 class="vegetables-card-title">corn</h3>
+          <p class="vegetables-card-price">60 UAH / kg</p>
+          <img
+            srcset="/test2/assets/corn-6afbc0d7.webp 1x, /test2/assets/corn_2x-f59ce7df.webp 2x"
+            src="/test2/assets/corn-6afbc0d7.webp"
+            width="282"
+            height="243"
+            alt="corn"
+          />
+        </div>
+      </li>
+      <li class="vegetables-list-item">
+        <div class="vegetables-card">
+          <h3 class="vegetables-card-title">sweet potatoes</h3>
+          <p class="vegetables-card-price">50 UAH / kg</p>
+          <img
+            srcset="/test2/assets/sweet_potatoes-7f9268b9.webp 1x, /test2/assets/sweet_potatoes_2x-9519f049.webp 2x"
+            src="/test2/assets/sweet_potatoes-7f9268b9.webp"
+            width="282"
+            height="243"
+            alt="sweet potatoes"
+          />
+        </div>
+      </li>
+      <li class="vegetables-list-item">
+        <div class="vegetables-card">
+          <h3 class="vegetables-card-title">carrot</h3>
+          <p class="vegetables-card-price">40 UAH / kg</p>
+          <img
+            srcset="/test2/assets/carrot-6a810538.webp 1x, /test2/assets/carrot_2x-77880aeb.webp 2x"
+            src="/test2/assets/carrot-6a810538.webp"
+            width="282"
+            height="243"
+            alt="carrot"
+          />
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="reviews section" id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">
+      reviews from our <span class="reviews-title-accent">customers</span>
+    </h2>
+    <p class="reviews-description">
+      Words of our customers: impressions and opinions about the quality of our
+      services and the freshness of our products.
+    </p>
+    <ul class="reviews-list">
+      <li class="reviews-item">
+        <img
+          width="56"
+          srcset="data:image/webp;base64,UklGRmoCAABXRUJQVlA4IF4CAACwDQCdASo5ADgAPp1Cn0soIyckphVbELATiWMAy+W9cbJdDLp07rTKT9frtiO2Cw5K2T+8pYfundyaGXEbl+pDH91JBpxOWiO/UPolJvxm0zD6Zz0YX3W7/+NsyUUldA/3Fvifj0QvBISu0Dp5srzJ8VGr+LgAAP7+wpdqh3WgrS47f8XdsFoqQdQzecHlR3c0a9A7+svgj1YQo7uRnVmOWl5cSh++Usy0j7Jx6XOzXBO8M5T5p07XL/sjqnPY2qhCgbRChKVMXK1so+F+64+YieyT09HGQdWf9+JyA8KzoZVuKmcNLvViuNboUBaXx38VcA7GKTpM4q9jA8ouZxyHoMI7G5c8md/fyxK3i5oiTd9Kkb13JfUNj/AF6MtBwYPrZYR77YzUpmfNtFv1Xz3mSf3w2vAYQ27zQ5bUMIOp6XaJMZ32FkMW8+5W+/vkeyTx75kZYjbboremiT5vgUjM7LHN2LM5gp0p9t6E2CWv9Kfvvu4pxiP85K7G5ms/emu0mJu3Pl7xR9sh/KTqRP/Ns0+jWl7F/p/67qV8TrXYe9bOre3QlpzJMBCUWU2gXAhPuNdXJydPIqwlZlph9rbAzXdnTebrbrv7AyoqaGzz4+jxt/I46NG+R2H6BffISXrjMbXGF8GZElSnVgd4PagC9njZzr1EXgKmsQE3wuzubZroudWaFHxqRVIh56AzAzCW4cpvS3NhJcQ7jGSRi2WKgFDa7PgLu4spOtBuDGUVqpVhZAzBLMC2/MKZonS5IjoHHteQtYeHq7ZpXd+G+JVyoNUKg92PEHSx04VAAAA= 1x, data:image/webp;base64,UklGRnAFAABXRUJQVlA4IGQFAADQIACdASpxAHAAPp1InkuoKiWkJdM7eLATiWUA0xzGzbbBfMiHnP3T09w81QGmJaQeRmm3SM//uD2Uf7tlo1Vl9vIf7HBHkqSUhbha83hYUQmtfdLFPqp8f4D9ESvN3otcmRCFz7Nko+Nkjbk5Kbt+MBqv6NixFr7+Bxpz89VqauXLZaYP9DOT2Wt3yNcrXphvoEC/1/vHr0b2+/riR406vTy2EPUL2YoGl42n/V4wj17NCkXu0Qo8F4c9hl8taW8fLZoDts/uw2s3ITX1qqPhRp9tuXtvpDNWaFliyV+dfv8h7ZcsrEbi+9I8aQLZPelBJD3JWmlawCiP8Hhj20YbTEfuhrn6cDMEXDSvl7wAAP78SiBKMiU3ibv0DKzcd7qtLiKktjv75ZpIQELJq7O5zzXfCw8bYzSkQfVjNgNL5cUJ6xGt4gLYOP2xbzmGYEETrFTGA4tGBS6i7YcTKrKyez4n3o3UIgaGTqQjrkhv8K/L2iJYt/f0mzquaEf+YocPPZmhJDoKW7GHJy+/zQRAmKD34gW1uiy365sMXlKfzXDns+kqkm5x5PyheyhpcLX876SPWv33tEon9SubGJM6YTg1IpVCMCitZf2O6sSmK/OA2AjCANaxHyn/eqrs3eZCvcSD8PpUPAXbXM1S3Gf0EhNgh50FfGI6UZXBrVeQ3w8eddum8u6HL9ma9+oVijwJlReyShoGNkTAdJrkZEGBwqS4fP/jj2th5dXxm9eMHmJXAmJ/kvfJAEULrSH44/7YyybhWjhc/CCLnSksfKyP3Kn39nJTaLs1NJaXneWEGbHfq6Wn6OGX+m2y/fbraVOQQj77UK8dhMLcp23d/uPYF519Ys1VBGyX6LXtf1uGrKgHF6qWeDfgZYU2IFPEqQdxf3M3eFWJRvoHcDoGJBNI5wGfiB1QVQy3uM4aCHrrTrbu83ZWBt+33hUWErqkNDmhLo+DnpCydpj2cDgNXQuOmFN+VJEgrZqXYxM9wWw4CQyK8de7p9Y/9UAyQpkqEacBvvfiM9+BNnd50nHSkKjb7bqJzLsL7NfulXGn6AUCMw8Gqjig9IB/VlWmhdim4Lam7ExYE6w7x9AnGKcCiqY2Z0+kQi/KTAm0JWAj7STq2hAWxskeAJPshZYlQdwLf7yi+J4mLq45UtkQIXiznrUuhAhSdSyDhd6zjhUKU8tC/vpCwCnI5y/6RLG76P9SH/RtL0fnbFmYjS+iC5JnvqbzhHt2kfBjP32/w7ZapGhJZ3bddYoppj6uIZPTMKrYXE9vburwBME5UgInJnm1SE86mOZ+/jzryOLkoWA5o9kicyvUQI/uo9EAAt0Iweo8hyzjQaX8Wr7oSiG5Bjm0B+42CYw8mwIVNqyRSROrhKRS593bqbblwmQ88shUirBHfvfS0T5gc0SYyR90lGPzQXm8ACEZkBlj7mVqo/CN4kdEVVZBGvgtDc1XbwhdQBUPrJ9IgiBs/4+tyh2XH3+HYdGCQrxGWorCYtpMtV9VgD0YJCIu0gKFO+aMG1tTIazCKNg1xwKmhLTZurAaqRv50/IK4a+Y1XfcXEu8ZCw86/nKkwgwA0oDqZULIt4J/wpew//UuOnSZo5z7MvMknHv8L62njrmBoEaz0ZjKHLywnEseElyLp8A0RNZ1vbO2ReP3l5X9st+8KKd9R49EvEgVMwSvQSe2/X4efRqdwhUuAEZVQiVpm+lvZQur9XS1oPnTj44Zhquw7PXS2fY2l9GBAugMvEZ2Up6RHflCjYwH6wFfnM/ShkXwZhMhTjcTFg0jj+VjruvDxmNOUB51slWUu0VLjtM1JEkp7wz76N3XyNoKHQAAAA= 2x"
+          src="data:image/webp;base64,UklGRmoCAABXRUJQVlA4IF4CAACwDQCdASo5ADgAPp1Cn0soIyckphVbELATiWMAy+W9cbJdDLp07rTKT9frtiO2Cw5K2T+8pYfundyaGXEbl+pDH91JBpxOWiO/UPolJvxm0zD6Zz0YX3W7/+NsyUUldA/3Fvifj0QvBISu0Dp5srzJ8VGr+LgAAP7+wpdqh3WgrS47f8XdsFoqQdQzecHlR3c0a9A7+svgj1YQo7uRnVmOWl5cSh++Usy0j7Jx6XOzXBO8M5T5p07XL/sjqnPY2qhCgbRChKVMXK1so+F+64+YieyT09HGQdWf9+JyA8KzoZVuKmcNLvViuNboUBaXx38VcA7GKTpM4q9jA8ouZxyHoMI7G5c8md/fyxK3i5oiTd9Kkb13JfUNj/AF6MtBwYPrZYR77YzUpmfNtFv1Xz3mSf3w2vAYQ27zQ5bUMIOp6XaJMZ32FkMW8+5W+/vkeyTx75kZYjbboremiT5vgUjM7LHN2LM5gp0p9t6E2CWv9Kfvvu4pxiP85K7G5ms/emu0mJu3Pl7xR9sh/KTqRP/Ns0+jWl7F/p/67qV8TrXYe9bOre3QlpzJMBCUWU2gXAhPuNdXJydPIqwlZlph9rbAzXdnTebrbrv7AyoqaGzz4+jxt/I46NG+R2H6BffISXrjMbXGF8GZElSnVgd4PagC9njZzr1EXgKmsQE3wuzubZroudWaFHxqRVIh56AzAzCW4cpvS3NhJcQ7jGSRi2WKgFDa7PgLu4spOtBuDGUVqpVhZAzBLMC2/MKZonS5IjoHHteQtYeHq7ZpXd+G+JVyoNUKg92PEHSx04VAAAA="
+          alt="John Wax"
+          class="reviews-img"
+        />
+        <h3 class="reviews-customer-name">John Wax</h3>
+        <p class="reviews-text">
+          These vegetables are my secret to delicious and healthy meals. The
+          quality is always at the highest level, the aroma and taste are
+          enchanting. I advise every fan of real products!
+        </p>
+      </li>
+      <li class="reviews-item hide-1">
+        <img
+          width="56"
+          srcset="data:image/webp;base64,UklGRmoCAABXRUJQVlA4IF4CAADwDQCdASo5ADgAPplCmUgup6IjMBYMALATCWUAyQhNR+RldyYLI5nBVgWeNdecxd4kQndoR8ziKtv8RXAE/aj7pfsuLzUWrPUFDADfostZltFrL3MYhxQWEw7B2NHoHyMSXPlR6DMKKfhGvicBlxJegmfdn0+Gh0AA/v6UDnY2oelibDXKY47gog0BavlvNmW/LNNaJpU/Yl6uO9xecm788VougKx+zuyO6QKCJR45Gxz14JHlqglAhzI4dw29Cm2hzS1ejyTwyvDE9e5bqyMy0YZTi97OqWElNTSBJIDAan1O/nXNZeQkTdPUq+0XYiwmqAgxLnm3vf1vSDmqYy4/dieX2VO2n1Sk1tA5wDemcLFI+aYRcwzWqFbGOwdeAzicfROhbrPD4PASbADWpp5Xbc9H8QM/n2Uc9sbOIl/vmiBUsaos4BAltE7ztpRXnOb3LvZFnRpldFgVAz+6tBO/1l/yJfq/ZfpNAkwzQS/3RiycD7AWPXUwljU3j7vyhoPwxvkieWB6IRv4s+ylG5eY5N7rl4QfZ3U1pRQz34vsPT2s3RZ8bjuOGz7tQbIpoXKhyFy1Ys6nYTRl/P3RFGhyO9RzkyO2buSzrD3hIQ21Zc+4G0em42AWYUDA/0RqPvAaPNXj20tES94nO5RiFtGtPxTViecuBc53f3g2Q08iDO26F4yt/FJ6KJSadoS9VdgU2NeXuDc7u3GS1kQfNvuMmmQ0qExkGID/Lx6iqQoXNvS1lo8Q65Fgsc2EkcivKYsh8peLvK6eyClkUL9LqnWP6FHTmNFAe+TB9ToZoAA= 1x, data:image/webp;base64,UklGRiYFAABXRUJQVlA4IBoFAABQHgCdASpxAHAAPplCmUgmpaIjMTM8mLATCWcA072vktA2Rzb2r7WfBxpsIMe5vutaVC+OP6FCrXPGulK+B0cbwCYxjoPLGZ4pLBRa+6WLKWicnnYVcVorUMvbmZ7ctV/uVMNrs9Uf6ue3149X2PYxVWg3Sd4dFpzyz5BMoXjo/4UWNhurKomivHNwoUSSKR8kc80ubeiS2hZEBLGxrutqFzhEep7nr10dZNpkmmVfxDhy5dPXoMmiUVjg45O/qn2/qf33oECdcxpglFF6okfPnYCs/LZGeLpBzeBheYjx7dp9PpjWavcdWAD+O1KSpGUVnIiAtwW/grOsAAD++/Yn375CROQuA1pp38IrDQuOuQtCxEIJ7YbmksjqPmORccTsx7KQoCBDG2ELkHPHuqRJca9VUejoeF3RSaRHq+9xFKDtya5Cpy3To9vGmG+d1HLHUNhJmgDsxuCAnKD4Fzs4mhIjOjocAF5rPhC3IgJC3MZAprnkdKjUkZaJtIQGi5ytZA4YtExRg8DQgN3MMViTE2H3B8Lz/fXqMmck/STpgf/SR9vX9Xx5pNtWR2zxYZO5otGTElMjuKbGQpDEMexnCtLGH1xahQq+M6IOyGWci+uuVds8rbGNEPOuEZ09oQfDWC3OUccXpkSwlh8XA8vsJlHLrSF0Afe5CAeD0HbnE1cyvIgwnFpKVw3KlzczTEDQ3k53UCePM2p4x7tq/q586RlUZQJ9aLELAe+EV3re6bIfsrzD0Nrsom/2TwNVuSFIG5WF+64FRRgVjfsE3urK4sGCaNgUjE8Cvtd4ZnaVSty6oVI6IdjY8IrJz1gUhXNSKVjav8TGcP8mmq5gZMByIY5J9mrRHD5GsPAqlHciAzA+50QX/8sueWSq1sXK85ylByziKjkODc94hwd+Rzl2qGmlN0KtTcibVV7bFvSa/9tPq0SY9QLbvtAW+q8QvZRJNuZFbCcG5tBoB6AMHGDsKpw2ubVVxU2uCkwy8uGor72iOXJtKOPviQuCq08cX+MIYr6sPnussvabXUlTQYpN9x+MnZz45enPb33fI//DC5iBbxEUMw6iG2KdwQPqEmhgE78WEXC6W9GFN+ULZiJqGUJcy+NhsuHCxCmOVSubmp3X1htL4XfyskoyO6Xg8Omxk9I3JH2+NEz7q8CUxBiuMRTBkJXpkc4xgPEmdqaB97oDbzlePPbtzX4p11ObYtz3/7cpllROFRgFis95LzfsICWT8N4df7c4tlrSOgmptv64/AVtClQ3nvuAuRgO1uDawJz/TV6TM/cNWHjwta8JgxAB69iDGPXUMzRjFFRdhh0z50w2YqDX9FlY/9yzr6nYziWJzR2tMmC6PiTpBM+19L8j+L+VXdV0ZonFcTn6Ge/ckyxBDeECLHaxLL4T8BOJiyhgAvohgC0JguTKOv8Bgy0joZKw0rs7goAKoS5LtOoRUFOIsAQlMXq3Ldk9VC0U+9x/e8q2hH+x4pJG0Nf+91tSdfZc2+mZMK8CMVVd6aT6LjkAfhJ1m8Bx3VcuRIyhrD/lqKTGn5DFQFKgk89+ETwe18lMaP2JFLa09eU6lI4gBRNzxzbf/Igof6R4wkvfS+55Z1nYYa5D0OEhIberzehJo25Y+ALxzQHLVAXonOSwengUudPxju83MNKWUa2DaUtM2fX+S2INUMYQhK4ARxHVqKvFsjjjdYIDV1VdFgwIHND4fiEljp+I2stQfn9q4PxoY+uAAAAA 2x"
+          src="data:image/webp;base64,UklGRmoCAABXRUJQVlA4IF4CAADwDQCdASo5ADgAPplCmUgup6IjMBYMALATCWUAyQhNR+RldyYLI5nBVgWeNdecxd4kQndoR8ziKtv8RXAE/aj7pfsuLzUWrPUFDADfostZltFrL3MYhxQWEw7B2NHoHyMSXPlR6DMKKfhGvicBlxJegmfdn0+Gh0AA/v6UDnY2oelibDXKY47gog0BavlvNmW/LNNaJpU/Yl6uO9xecm788VougKx+zuyO6QKCJR45Gxz14JHlqglAhzI4dw29Cm2hzS1ejyTwyvDE9e5bqyMy0YZTi97OqWElNTSBJIDAan1O/nXNZeQkTdPUq+0XYiwmqAgxLnm3vf1vSDmqYy4/dieX2VO2n1Sk1tA5wDemcLFI+aYRcwzWqFbGOwdeAzicfROhbrPD4PASbADWpp5Xbc9H8QM/n2Uc9sbOIl/vmiBUsaos4BAltE7ztpRXnOb3LvZFnRpldFgVAz+6tBO/1l/yJfq/ZfpNAkwzQS/3RiycD7AWPXUwljU3j7vyhoPwxvkieWB6IRv4s+ylG5eY5N7rl4QfZ3U1pRQz34vsPT2s3RZ8bjuOGz7tQbIpoXKhyFy1Ys6nYTRl/P3RFGhyO9RzkyO2buSzrD3hIQ21Zc+4G0em42AWYUDA/0RqPvAaPNXj20tES94nO5RiFtGtPxTViecuBc53f3g2Q08iDO26F4yt/FJ6KJSadoS9VdgU2NeXuDc7u3GS1kQfNvuMmmQ0qExkGID/Lx6iqQoXNvS1lo8Q65Fgsc2EkcivKYsh8peLvK6eyClkUL9LqnWP6FHTmNFAe+TB9ToZoAA="
+          alt="Victoria Romashenko"
+          class="reviews-img"
+        />
+        <h3 class="reviews-customer-name">Victoria Romashenko</h3>
+        <p class="reviews-text">
+          I love how fast and fresh the vegetables are delivered. Salads always
+          turn out so appetizing, and soups are real masterpieces. The quality
+          is impeccable!
+        </p>
+      </li>
+      <li class="reviews-item hide-2">
+        <img
+          width="56"
+          srcset="data:image/webp;base64,UklGRmICAABXRUJQVlA4IFYCAADwDQCdASo5ADgAPpU8mEgpJiSjMfjskLASiUAZZlcpstmDpqAQwUrIjHT66lck2bVG/egqm3be1zj3jLeolmgWQH3zX6JvhsyzJySkVwb1wJadnevIArXCLhyIvC4gwFAu+aXzzY9Tot80cFhFRzUPl1imQkMuQAAA/v6UEBn52edlLBjA4ZM98322Q5n0q2Zwh5WoGYE8Fr9Hpja22ZCiftJssWdNwT9lAWa5UhjK9FO5KlVp7/EUsfcOeV8SN3Te4fobpBEpVhfXxqJ3tv4Ukje5GK/4mr7v5Rl4DFdqWghNizkafkv3ZxiskjZpA/tTeslVT9XvhN+8V3ePdN5RzG7ZYfondyO6tHW46Tg8Jy72cDOU+9aNekmQdv9a2/RbvEsYqSM3MYipzYYeqYjqdnhMGyrNdc/b3m7gvy8Ty1198Xv9sbLIY9utF/3i2N+mEXG9jpLzNicIfAw8LEI1kSlHpK7tOChAXe3iDw/RH76QtqxC2K6mfmilxMZ0EpKDtw8j5Ib5j7BrrQ1e2GQ/r6UiDivCCXTQXY0Mdtu1Ubytiwp5fwlAvRvqXy774sxtPFHCdmTiSpnlK3v7v2LJg4S2nurscSzEK2UxFF0B3Nww3uU1u1XKMUzsRenx4ap7JKD2VxDCQdLQDSdrT8x8xyYrOsY9AKoBZDN5era9HVR0Y1qn4TXH39Eu1mt/EwAEmbo91sfB+ECB4Eu5Cu5mD2x54/MX/TmRnusYycEbxSBbaCSoDQAhtcDnp66oJKIN0YUGNbf5hVM9gxuOFxmtyCRoIAAA 1x, data:image/webp;base64,UklGRtoEAABXRUJQVlA4IM4EAACQHgCdASpxAHAAPp1CmkioJ6Okr3TLULATiWUXgBfAAyS7csDfGt0fifE38Is2FGOyojwdl4FoZ6Wx6C9sTIPD2xjgExv+Dhog8MQ0nrrWj+j5VpDpSwNZBMSnK1AG1vktCUmEPe2/AO4ZLFTHLEzJZXqGCIHtkfDHuzBNep/q6tTYwypc3fYEeMshSZwKQ9acx+MjkafrdzuTJKH1iRa1pg4e9ByF3lXRy4Ouv6IwO7MsDTUHPeqgKNixZwX05mt6ukQlmIah9huzd75S5w+CPxwXyv4WjWnBDC+6mXQGSUSZ0y3lmgru7r85nmnYNeOu6ykUdm18Zs56474AAP7C2jLSv5i0nxQMiCJVOomm4VMOzob2i4BJSetaM/RgPTBbaD5OYEdt+Fr/2O4qx/NaV8WWk2BZEJxlJspMrNTj7VAXtNx30kFqo975MNwpoDZ3fsk4CLaPgbHQstQIwJFQd/onUNcbol+6+u2xOTX+/UhiQ/OTt27iLOZG69vxksEFaW469qN7nA7QaFvpAWPifPI8LsixuVw00fvHGtu/s9pSRWKKFDwIQxoHymm2fVcuD1kTQXKLdBdp6uX+c3niS7ql/8Ra4/tbHGAoQtGxIlVhVWyQ37E4YIc5v5D6hpF2IPSYF/giWITS6zJHGUpOxPNRshZmmOiPHEg6GZMOACYbRkNF0g4Fp47/lJeqchVHNydVCfCk/FiMaM1mlh3sHrjyKrEJkQj6L8ruKWSZ3Fahcf+srS/ocWJQ+5emYShdSRAE15bB6t3vOdv1GvYf8Pe1tEXcqU32CQf8erhhAnDf7MMsHMmQjeMqtv8Hei04N5hV+YsW5O2g2npccMssBRziXqh1uskKEuRkXyvBAUD1cr5UnZPAjA8dqvLDp9POPrIzzpF0rseVrPfrFpLnDOLqWZmr0B4hRxraUExh0u3PdqMPjuwfLdAm0cSzkjwvxCN8DZz3uK7iOtC4y4Cyhb6mO6lOoVC04TRvEvl/OrtR6OTQXb/XZa7fT7aq67AB2zfXuXFmalBDOvrx4cnuqqJtBf6hgg/xB9pbmv/OphpXS86xshOTilALiVJJ0/tXTMCpFXWaEkbyIQnOAYK2jKxoePkUQv7AWexp2AHLPLHem8oUAt4X4BDMu+HI+rLSDt21BQRTbiUKW5WAh5MjavrETiH35HGybB9ChUV5FyzO4SUYjX76tKfg1ZcHzmO38P3xqF1Im16/k5ozAnvdtrc4gdwryORLNeFGgntUM7Q1zAM3twAILnnERIOy+pl+jpzPJbKZ2gzjZj094gErxcmPOz3ugN5ztDKYW+vqwFaKTnSBinLQ3OvFIE6qufsPSYYC8mmxdIFh361xjtozwQbdc0d1zQ2dwGHFUxCBQpxqSeXR6kqdGFGP9zobEJ/CPVIAtupsvxvOW5335iHnIPHBLMrg64/AszEts76WotVmiYrzy1EZOHTyklyMxTNdtKFFdq+eiKYh1ZNiTZ5sq54YpdN3ujWqUuswHLsaSXAR1v4Gm5qMp/Z+g0pSwqHjds1lZK6JeuL/szFmouGz6J/Zd+8KDknEraL/yo22Yj/US3iGfjTFFbixMPB0xKFFn0u7utrd0MjBu8A+OOTYC59SVKaLf+55EbvggAA= 2x"
+          src="data:image/webp;base64,UklGRmICAABXRUJQVlA4IFYCAADwDQCdASo5ADgAPpU8mEgpJiSjMfjskLASiUAZZlcpstmDpqAQwUrIjHT66lck2bVG/egqm3be1zj3jLeolmgWQH3zX6JvhsyzJySkVwb1wJadnevIArXCLhyIvC4gwFAu+aXzzY9Tot80cFhFRzUPl1imQkMuQAAA/v6UEBn52edlLBjA4ZM98322Q5n0q2Zwh5WoGYE8Fr9Hpja22ZCiftJssWdNwT9lAWa5UhjK9FO5KlVp7/EUsfcOeV8SN3Te4fobpBEpVhfXxqJ3tv4Ukje5GK/4mr7v5Rl4DFdqWghNizkafkv3ZxiskjZpA/tTeslVT9XvhN+8V3ePdN5RzG7ZYfondyO6tHW46Tg8Jy72cDOU+9aNekmQdv9a2/RbvEsYqSM3MYipzYYeqYjqdnhMGyrNdc/b3m7gvy8Ty1198Xv9sbLIY9utF/3i2N+mEXG9jpLzNicIfAw8LEI1kSlHpK7tOChAXe3iDw/RH76QtqxC2K6mfmilxMZ0EpKDtw8j5Ib5j7BrrQ1e2GQ/r6UiDivCCXTQXY0Mdtu1Ubytiwp5fwlAvRvqXy774sxtPFHCdmTiSpnlK3v7v2LJg4S2nurscSzEK2UxFF0B3Nww3uU1u1XKMUzsRenx4ap7JKD2VxDCQdLQDSdrT8x8xyYrOsY9AKoBZDN5era9HVR0Y1qn4TXH39Eu1mt/EwAEmbo91sfB+ECB4Eu5Cu5mD2x54/MX/TmRnusYycEbxSBbaCSoDQAhtcDnp66oJKIN0YUGNbf5hVM9gxuOFxmtyCRoIAAA"
+          alt="Ihor Trachuk"
+          class="reviews-img"
+        />
+        <h3 class="reviews-customer-name">Ihor Trachuk</h3>
+        <p class="reviews-text">
+          Recently tried my fresh tomatoes and peppers - amazing! The
+          authenticity of the taste, as if from the garden directly to my table.
+          It is now my main vegetable supplier.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="your-order section" id="your-order">
+  <div class="container">
+    <h2 class="your-order-title">
+      fresh <span class="your-order-title-span">harvest</span> box has got you
+      covered
+    </h2>
+    <p class="your-order-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+    <div class="form-and-follows">
+      <div class="form-box">
+        <h3 class="form-title">
+          Ordering <span class="form-title-color">from us</span> is quick and
+          easy! Fill out
+          <span class="form-title-color-second">the form</span>
+          below and we will contact you !
+        </h3>
+        <form name="contact-form" autocomplete="off">
+          <div class="form-group">
+            <label class="form-label" for="user-name"></label
+            ><input
+              class="form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              pattern="[A-Za-z]*"
+              required
+              placeholder="Full Name"
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid name, try again</p>
+          </div>
+          <div class="form-group">
+            <label for="user-email"></label
+            ><input
+              class="form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              pattern="[a-zA-Z0-9_.-]+@[a-zA-Z0-9_-]+\.[a-zA-Z]{2,}"
+              required
+              placeholder="Email"
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+          <div class="textarea">
+            <label for="user-comment"></label
+            ><textarea
+              class="textarea-input"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button class="form-btn" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="follows-box">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/test2/assets/Rectangle-desc-1x-163cbbb7.webp 1x, /test2/assets/Rectangle-desc-2x-699d5dac.webp 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/test2/assets/Rectangle-tab-1x-1b011872.webp 1x, /test2/assets/Rectangle-tab-2x-762c9c25.webp 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/test2/assets/Rectangle-mob-1x-0884a3fa.webp 1x, /test2/assets/Rectangle-mob-2x-3a3f78ee.webp 2x"
+          />
+          <img
+            class="its-border"
+            width="528"
+            height="273"
+            src="/test2/assets/Rectangle-tab-1x-1b011872.webp"
+            alt="The girl squeezes a lemon into a glass"
+          />
+        </picture>
+        <div>
+          <p class="follows-text">Follow us on our social networks:</p>
+          <ul class="follows-list">
+            <li class="follows-link">
+              <a href="https://www.instagram.com/goitclub/" target="_blank"
+                >instagram</a
+              >
+            </li>
+            <li class="slash">/</li>
+            <li class="follows-link">
+              <a href="https://www.facebook.com/goITclub/" target="_blank"
+                >facebook</a
+              >
+            </li>
+            <li class="slash">/</li>
+            <li class="follows-link">
+              <a href="https://www.youtube.com/c/GoIT" target="_blank"
+                >youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thank-you modal" data-modal="2">
+    <button type="button" class="close-thank-you">
+      <svg class="close-icon-thank-you js-modal-close" width="40" height="40">
+        <use href="/test2/assets/icons-97643fd2.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h3 class="thank-you-title">thank you!</h3>
+    <p class="thank-you-text">
+      <span class="thank-you-text-red">We’ve</span> received you message.
+      Someone from our team will
+      <span class="thank-you-text-green">contact you soon</span>.
+    </p>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="nav-footer">
+      <div class="logo-footer">
+        <a href="./index.html" class="logo-link-footer">
+          <svg class="  " width="16" height="16">
+            <use href="/test2/assets/icons-97643fd2.svg#icon-squares"></use>
+          </svg>
+          Green.Harvest
+        </a>
+        <p class="logo-footer-text">
+          Whether you're looking for a healthy snack or a thoughtful gift, our
+          fruit baskets are the perfect choice.
+        </p>
+      </div>
+      <div class="nav-address">
+        <ul class="list-link-footer">
+          <li class="item-link-footer">
+            <a href="#how-it-works">how it works</a>
+          </li>
+          <li class="item-link-footer"><a href="#vegetables">vegetables</a></li>
+          <li class="item-link-footer"><a href="#reviews">reviews</a></li>
+        </ul>
+        <address class="address-footer">
+          <a href="tel:+380684439426">+380 (68) 443-94-26</a>
+          <p class="address-footer-text">
+            1678 S. Pioneer Road Salt Lake City UT 84104
+          </p>
+        </address>
+      </div>
+    </div>
+    <div class="privacy-policy">
+      <div class="privacy-policy-links">
+        <a href="">Privacy Policy</a>
+        <p>/</p>
+        <button type="button" class="cookie-settings-open cookies-open">
+          Cookie settings
+        </button>
+      </div>
+      <p>&copy; Green Harvest 2023</p>
+    </div>
+    <div class="development-team">
+      <button class="development-team-btn">Developed by It-Hub</button>
+    </div>
+  </div>
+  <div class="backdrop-cookies">
+    <div class="modal-cookies">
+      <p class="modal-cookies-description">
+        We use cookies and similar technologies to understand how you use our
+        services, improve your experience and serve you personalized content and
+        advertising. By clicking "Accept All", you accept all cookies. By
+        clicking "Reject All", you reject all cookies except Strictly Necessary
+        cookies. To manage your cookies and learn more about our use of cookies
+        click “Cookie Settings” &nbsp;<a href="" class="cookie-link"
+          >Learn more.</a
+        >
+      </p>
+      <div class="modal-list-button">
+        <button type="button" class="button-cookies">Cookie Settings</button>
+        <button type="button" class="button-cookies cookies-close">
+          Reject All
+        </button>
+        <button type="button" class="button-cookies cookies-close">
+          Accept All
+        </button>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- <div class="cookie-settings">
+<a href="./index.html" class="logo-link-footer">
+          <svg class="  " width="16" height="16">
+            <use href="./img/icons.svg#icon-squares"></use>
+          </svg>
+          Green.Harvest
+</a>
+<button type="button" class="cookie-settings-close">
+  <svg class="modal-svg-close" height="8" width="8">
+  <use href="./img/icons.svg#icon-close"></use>
+</svg>
+</button>
+<div class="div">
+
+</div>
+
+</div> -->
+
+    <div class="modal-team">
+  <div class="modal-box">
+    <button type="button" class="modal-team-close">
+      <svg class="svg-team-close" width="30" height="30">
+        <use href="/test2/assets/icons-97643fd2.svg#icon-close" />
+      </svg>
+    </button>
+    <div class="mentor">
+      <h2 class="title-project">
+        <span class="title-project-text">Project HTML+CSS</span>
+      </h2>
+      <h3 class="title-harvest">
+        <span class="title-harvest-text">GREEN HARVEST</span>
+      </h3>
+    </div>
+
+    <div class="it-hub">
+      <h2 class="title-hub">
+        <span class="hub-text">IT</span>
+        <span class="hub-text-hub">HUB</span>
+      </h2>
+    </div>
+    <div class="lead-box">
+      <ul class="lead-list">
+        <li class="lead-item">
+          <img
+            class="team-img"
+            src="/test2/assets/denis-pronin-9f5b93a4.webp"
+            width="300"
+            height="300"
+            alt="Denis Pronin"
+          />
+          <h3 class="team-title">Denis Pronin</h3>
+          <p class="team-text">Team Lead</p>
+        </li>
+        <li class="lead-item">
+          <div class="mentor-box">
+            <img
+              src="/test2/assets/olga-1a9f6c68.webp"
+              width="300"
+              height="300"
+              alt="Olga Konopleva"
+            />
+            <h3 class="team-title">Olga Konopleva</h3>
+            <p class="team-text">Mentor</p>
+          </div>
+        </li>
+        <li class="lead-item">
+          <img
+            class="team-img"
+            src="/test2/assets/vova-7b19a0a8.webp"
+            width="300"
+            height="300"
+            alt="Volodymyr Kyryliuk"
+          />
+          <h3 class="team-title">Volodymyr Kyryliuk</h3>
+          <p class="team-text">Scrum Master</p>
+        </li>
+      </ul>
+    </div>
+    <div class="team-box">
+      <ul class="team-list">
+        <li class="team-item">
+          <img
+            class="team-img"
+            src="/test2/assets/viktor-01fab584.webp"
+            width="300"
+            height="300"
+            alt="Viktor Husar"
+          />
+          <h3 class="team-title">Viktor Husar</h3>
+          <p class="team-text">Your order</p>
+        </li>
+        <li class="team-item">
+          <img
+            class="team-img"
+            src="/test2/assets/kot-fb5d1d9b.webp"
+            width="400"
+            height="400"
+            alt="Denys Kot"
+          />
+          <h3 class="team-title">Denys Kot</h3>
+          <p class="team-text">Vegetables</p>
+        </li>
+        <li class="team-item">
+          <img
+            class="team-img"
+            src="/test2/assets/polishuk-a169eb26.webp"
+            width="400"
+            height="400"
+            alt="Denys Polishchuk"
+          />
+          <h3 class="team-title">Denys Polishchuk</h3>
+          <p class="team-text">Header</p>
+        </li>
+        <li class="team-item">
+          <img
+            class="team-img"
+            src="/test2/assets/ira-ba4e87e4.webp"
+            width="400"
+            height="400"
+            alt="Iryna Pavlyk"
+          />
+          <h3 class="team-title">Iryna Pavlyk</h3>
+          <p class="team-text">Advertisement</p>
+        </li>
+        <li class="team-item">
+          <img
+            class="team-img"
+            src="/test2/assets/ilya-271342c7.webp"
+            width="400"
+            height="400"
+            alt="Dorizhko Illia"
+          />
+          <h3 class="team-title">Dorizhko Illia</h3>
+          <p class="team-text">Reviews</p>
+        </li>
+        <li class="team-item">
+          <img
+            class="team-img"
+            src="/test2/assets/kolya-d902436b.webp"
+            width="400"
+            height="400"
+            alt="Mykola Naumenko"
+          />
+          <h3 class="team-title">Mykola Naumenko</h3>
+          <p class="team-text">Footer</p>
+        </li>
+        <li class="team-item">
+          <img
+            class="team-img"
+            src="/test2/assets/igor-33896780.webp"
+            width="400"
+            height="400"
+            alt="Ihor Tsvyk"
+          />
+          <h3 class="team-title">Ihor Tsvyk</h3>
+          <p class="team-text">How it works</p>
+        </li>
+        <li class="team-item">
+          <img
+            class="team-img"
+            src="/test2/assets/anatoliy-3626aac6.webp"
+            width="400"
+            height="400"
+            alt="Chambula Anatolii"
+          />
+          <h3 class="team-title">Chambula Anatolii</h3>
+          <p class="team-text">Hero</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+  </body>
+</html>
