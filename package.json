@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/it-hub/",
-    "preview": "vite preview"
+    "build": "vite build --base=/test2/",
+    "preview": "vite preview",
+    "push": "git add . && git commit -m 'update' && git push"
   },
   "devDependencies": {
     "vite": "^4.5.2",
