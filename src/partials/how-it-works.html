@@ -1,0 +1,83 @@
+<section class="how-it-works" id="how-it-works">
+  <div class="howitworks-container container">
+    <h2 class="visually-hidden">How it works</h2>
+    <div class="howitworks-image-container">
+      <picture>
+        <!-- Desktop screen -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/how-it-works/desktop-1x.webp,
+            ./img/how-it-works/desktop-2x.webp 2x
+          "
+          type="image/webp"
+        />
+
+        <!-- Tablet screen -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/how-it-works/tab-1x.webp 1x,
+            ./img/how-it-works/tab-2x.webp 2x
+          "
+          type="image/webp"
+        />
+
+        <!-- Mobile screen -->
+
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/how-it-works/mob-1x.webp 1x,
+            ./img/how-it-works/mob-2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <img
+          src="./img/how-it-works/desktop-1x.webp"
+          alt="howitworks-image"
+          class="howitworks-img"
+          width="335"
+          height="450"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+    <div class="howitsworks-steps">
+      <p class="howitworks-title">
+        To order your
+        <span class="howitworks-title-span">vegetable</span> basket, simply
+        follow these
+        <span class="howitworks-title-span">easy steps</span>
+      </p>
+      <p class="howitworks-text">
+        Our baskets are assembled with care and delivered straight to your
+        doorstep, so you can enjoy the taste of fresh fruit without ever leaving
+        your home.
+      </p>
+      <ol class="howitworks-list">
+        <li class="howitworks-item">
+          <p class="howitworks-item-text">
+            Just choose
+            <span class="howitworks-item-span">the vegetable</span> you want to
+            order by clicking on the checkboxes
+            <span class="howitworks-item-span">next to it.</span>
+          </p>
+        </li>
+        <li class="howitworks-item">
+          <p class="howitworks-item-text">
+            Click on <span class="howitworks-item-span">the basket</span> and
+            fill out the form.
+          </p>
+        </li>
+        <li class="howitworks-item">
+          <p class="howitworks-item-text">
+            Sit back and relax! Your
+            <span class="howitworks-item-span">fresh vegetables</span> basket
+            will be delivered.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>

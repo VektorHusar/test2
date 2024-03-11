@@ -1,0 +1,130 @@
+<section class="your-order section" id="your-order">
+  <div class="container">
+    <h2 class="your-order-title">
+      fresh <span class="your-order-title-span">harvest</span> box has got you
+      covered
+    </h2>
+    <p class="your-order-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+    <div class="form-and-follows">
+      <div class="form-box">
+        <h3 class="form-title">
+          Ordering <span class="form-title-color">from us</span> is quick and
+          easy! Fill out
+          <span class="form-title-color-second">the form</span>
+          below and we will contact you !
+        </h3>
+        <form name="contact-form" autocomplete="off">
+          <div class="form-group">
+            <label class="form-label" for="user-name"></label
+            ><input
+              class="form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              pattern="[A-Za-z]*"
+              required
+              placeholder="Full Name"
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid name, try again</p>
+          </div>
+          <div class="form-group">
+            <label for="user-email"></label
+            ><input
+              class="form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              pattern="[a-zA-Z0-9_.-]+@[a-zA-Z0-9_-]+\.[a-zA-Z]{2,}"
+              required
+              placeholder="Email"
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+          <div class="textarea">
+            <label for="user-comment"></label
+            ><textarea
+              class="textarea-input"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button class="form-btn" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="follows-box">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/img-your-order/Rectangle-desc-1x.webp 1x,
+              ./img/img-your-order/Rectangle-desc-2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/img-your-order/Rectangle-tab-1x.webp 1x,
+              ./img/img-your-order/Rectangle-tab-2x.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/img-your-order/Rectangle-mob-1x.webp 1x,
+              ./img/img-your-order/Rectangle-mob-2x.webp 2x
+            "
+          />
+          <img
+            class="its-border"
+            width="528"
+            height="273"
+            src="./img/img-your-order/Rectangle-tab-1x.webp"
+            alt="The girl squeezes a lemon into a glass"
+          />
+        </picture>
+        <div>
+          <p class="follows-text">Follow us on our social networks:</p>
+          <ul class="follows-list">
+            <li class="follows-link">
+              <a href="https://www.instagram.com/goitclub/" target="_blank"
+                >instagram</a
+              >
+            </li>
+            <li class="slash">/</li>
+            <li class="follows-link">
+              <a href="https://www.facebook.com/goITclub/" target="_blank"
+                >facebook</a
+              >
+            </li>
+            <li class="slash">/</li>
+            <li class="follows-link">
+              <a href="https://www.youtube.com/c/GoIT" target="_blank"
+                >youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="thank-you modal" data-modal="2">
+    <button type="button" class="close-thank-you">
+      <svg class="close-icon-thank-you js-modal-close" width="40" height="40">
+        <use href="./img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h3 class="thank-you-title">thank you!</h3>
+    <p class="thank-you-text">
+      <span class="thank-you-text-red">We’ve</span> received you message.
+      Someone from our team will
+      <span class="thank-you-text-green">contact you soon</span>.
+    </p>
+  </div>
+</section>

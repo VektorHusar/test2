@@ -1,0 +1,64 @@
+<header class="header">
+  <div class="container">
+    <nav class="header-navigation">
+      <a href="./index.html" class="logo header-logo">
+        <svg class="logo-svg header-logo-svg">
+          <use href="./img/icons.svg#icon-squares"></use>
+        </svg>
+        green.harvest
+      </a>
+      <svg
+        class="header-menu-svg js-open-modal"
+        data-modal="1"
+        id="header-menu-svg-btn"
+      >
+        <use href="./img/icons.svg#icon-burger"></use>
+      </svg>
+      <ul class="header-menu">
+        <li>
+          <a class="header-menu-link" href="#how-it-works">How It Works</a>
+        </li>
+        <li>
+          <a class="header-menu-link" href="#vegetables">Vegetables</a>
+        </li>
+        <li>
+          <a class="header-menu-link" href="#reviews">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="header-button scroll-button" type="button">Shop now</button>
+  </div>
+</header>
+<div
+  class="bg-mobile-navigation-container js-overlay-modal overlay"
+  id="view-mobile-navigation"
+>
+  <div class="mobile-navigation-container modal" data-modal="1">
+    <button class="btn-close .js-modal-close" id="btn-close" type="button">
+      <svg class="btn-icon-close">
+        <use href="./img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <nav class="mobile-navigation">
+      <ul class="mobile-menu">
+        <li>
+          <a
+            class="mobile-menu-link mobile-menu-link-active"
+            href="#how-it-works"
+          >
+            How It Works
+          </a>
+        </li>
+        <li>
+          <a class="mobile-menu-link" href="#vegetables">Vegetables</a>
+        </li>
+        <li>
+          <a class="mobile-menu-link" href="#reviews">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="mobile-navigation-btn scroll-button" type="button">
+      Shop now
+    </button>
+  </div>
+</div>
